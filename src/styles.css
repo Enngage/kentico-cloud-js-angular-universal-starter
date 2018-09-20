@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    color: #008ae1;
+    background-color: #ffffff
+}
+
+.link {
+    margin-right: 8px;
+    color: #008ae1;
+    text-decoration: underline;
+  
+    }
+
+.link:hover {
+    text-decoration: none;
+}
+
