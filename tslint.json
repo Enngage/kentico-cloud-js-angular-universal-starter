@@ -16,11 +16,6 @@
     },
     "eofline": true,
     "forin": true,
-    "import-blacklist": [
-      true,
-      "rxjs/Rx",
-      "rxjs/operators"
-    ],
     "import-spacing": true,
     "indent": [
       true,
