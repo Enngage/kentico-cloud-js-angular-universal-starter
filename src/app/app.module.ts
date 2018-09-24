@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { TransferHttpCacheModule } from '@nguniversal/common';
+import { AngularHttpServiceModule } from 'kentico-cloud-angular-http-service';
 import { NgxJsonViewerModule } from 'ngx-json-viewer';
 
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     ]),
     TransferHttpCacheModule,
     CommonModule,
-    NgxJsonViewerModule
+    NgxJsonViewerModule,
+    AngularHttpServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,7 +6,13 @@
     "module": "es2015",
     "types": [
       "node"
-    ]
+    ,],
+    "experimentalDecorators": true
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true
   },
   "exclude": [
     "test.ts",
